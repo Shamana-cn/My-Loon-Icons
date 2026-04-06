@@ -5,7 +5,7 @@
 ## 📥 如何导入
 在 Loon 中长按策略或插件 **图标** -> **右上角＋号** -> **从 URL 导入**，粘贴下方链接：
 
-`https://raw.githubusercontent.com/ppwwyy0909/My-Loon-Icons/main/my_icons.json`
+`https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/my_icons.json`
 
 ## 🖼️ 已收录图标
 目前已支持以下图标：
