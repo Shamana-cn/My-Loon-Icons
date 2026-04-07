@@ -10,6 +10,10 @@
 ## 🖼️ 已收录图标
 目前已支持以下图标：
 * [x] 搜狗 (Sougou)
+* [x] 彩云天气 (Caiyuntianqi)
+* [x] 花小猪 (Huaxiaozhu)
+* [x] 傲软抠图 (Aoruankoutu)
+* [x] 智行旅行 (Zhixing)
 * [ ] 更多图标录入中...
 
 ---
