@@ -34,5 +34,17 @@
       "name": "中国移动",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/zhongguoyidong.png"
     },
+    {
+      "name": "Blued",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/blued.png"
+    },
+    {
+      "name": "cloudflare",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/cloudflare.png"
+    },
+    {
+      "name": "qq音乐",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/qqmusic.png"
+    },
   ]
 }
