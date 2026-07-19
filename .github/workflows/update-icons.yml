@@ -1,0 +1,55 @@
+name: Update Loon Icons
+
+on:
+  push:
+    paths:
+      - "icons/**"
+
+permissions:
+  contents: write
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate icons.json
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+
+          repo = "Shamana-cn/My-Loon-Icons"
+
+          icons = []
+
+          for file in sorted(os.listdir("icons")):
+              if file.lower().endswith(".png"):
+                  name = os.path.splitext(file)[0]
+                  icons.append({
+                      "name": name,
+                      "url": f"https://raw.githubusercontent.com/{repo}/main/icons/{file}"
+                  })
+
+          data = {
+              "name": "Shamana图标库",
+              "description": "自定义图标",
+              "icons": icons
+          }
+
+          with open("icons.json","w",encoding="utf-8") as f:
+              json.dump(data,f,ensure_ascii=False,indent=2)
+          EOF
+
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add icons.json
+
+          git diff --cached --quiet || git commit -m "Auto update icons"
+
+          git push
