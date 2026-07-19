@@ -3,6 +3,10 @@
   "description": "自定义图标",
   "icons": [
     {
+      "name": "Slidebox",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/Slidebox.png"
+    },
+    {
       "name": "aoruankoutu",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/aoruankoutu.png"
     },
