@@ -1,4 +1,4 @@
-name: Update Loon Icons
+name: Update my_icons.json
 
 on:
   push:
@@ -9,28 +9,28 @@ permissions:
   contents: write
 
 jobs:
-  update-json:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate icons.json
+      - name: Generate my_icons.json
         run: |
           python3 << 'EOF'
           import json
           import os
 
-          repo = "Shamana-cn/My-Loon-Icons"
+          REPO = "Shamana-cn/My-Loon-Icons"
 
           icons = []
 
-          for file in sorted(os.listdir("icons")):
-              if file.lower().endswith(".png"):
-                  name = os.path.splitext(file)[0]
+          for filename in sorted(os.listdir("icons")):
+              if filename.lower().endswith(".png"):
+                  name = os.path.splitext(filename)[0]
                   icons.append({
                       "name": name,
-                      "url": f"https://raw.githubusercontent.com/{repo}/main/icons/{file}"
+                      "url": f"https://raw.githubusercontent.com/{REPO}/main/icons/{filename}"
                   })
 
           data = {
@@ -39,17 +39,20 @@ jobs:
               "icons": icons
           }
 
-          with open("icons.json","w",encoding="utf-8") as f:
-              json.dump(data,f,ensure_ascii=False,indent=2)
+          with open("my_icons.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
           EOF
 
-      - name: Commit
+      - name: Commit changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          git add icons.json
+          git add my_icons.json
 
-          git diff --cached --quiet || git commit -m "Auto update icons"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Auto update my_icons.json"
+            git push
+          fi
