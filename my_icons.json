@@ -39,10 +39,6 @@
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/cloudflare.png"
     },
     {
-      "name": "douban",
-      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/douban.png"
-    },
-    {
       "name": "huaxiaozhu",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/huaxiaozhu.png"
     },
@@ -101,6 +97,10 @@
     {
       "name": "航旅纵横",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/航旅纵横.png"
+    },
+    {
+      "name": "豆瓣",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/豆瓣.png"
     },
     {
       "name": "高德地图",
