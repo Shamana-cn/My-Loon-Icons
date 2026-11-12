@@ -3,11 +3,35 @@
   "description": "自定义图标",
   "icons": [
     {
+      "name": "12306",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/12306.PNG"
+    },
+    {
+      "name": "Loon",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/Loon.png"
+    },
+    {
+      "name": "NB助手",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/NB助手.png"
+    },
+    {
+      "name": "Nagram",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/Nagram.png"
+    },
+    {
+      "name": "PornHub",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/PornHub.png"
+    },
+    {
+      "name": "Safari",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/Safari.png"
+    },
+    {
       "name": "Slidebox",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/Slidebox.png"
     },
     {
-      "name": "傲软抠图",
+      "name": "aoruankoutu",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/aoruankoutu.png"
     },
     {
@@ -15,7 +39,7 @@
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/blued.png"
     },
     {
-      "name": "彩云天气",
+      "name": "caiyuntianqi",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/caiyuntianqi.png"
     },
     {
@@ -23,32 +47,64 @@
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/cloudflare.png"
     },
     {
-      "name": "豆瓣",
+      "name": "douban",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/douban.png"
     },
     {
-      "name": "花小猪",
+      "name": "huaxiaozhu",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/huaxiaozhu.png"
     },
     {
-      "name": "QQ音乐",
+      "name": "qqmusic",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/qqmusic.png"
     },
     {
-      "name": "搜狗输入法",
+      "name": "sougou",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/sougou.png"
     },
     {
-      "name": "淘宝",
+      "name": "taobao",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/taobao.png"
     },
     {
-      "name": "智行",
+      "name": "zhixing",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/zhixing.png"
     },
     {
-      "name": "中国移动",
+      "name": "zhongguoyidong",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/zhongguoyidong.png"
+    },
+    {
+      "name": "威锋",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/威锋.png"
+    },
+    {
+      "name": "瑞幸咖啡",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/瑞幸咖啡.png"
+    },
+    {
+      "name": "百度搜索",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/百度搜索.PNG"
+    },
+    {
+      "name": "网易云音乐",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/网易云音乐.PNG"
+    },
+    {
+      "name": "美团",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/美团.png"
+    },
+    {
+      "name": "腾讯文档",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/腾讯文档.PNG"
+    },
+    {
+      "name": "航旅纵横",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/航旅纵横.png"
+    },
+    {
+      "name": "高德地图",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/高德地图.PNG"
     }
   ]
 }
