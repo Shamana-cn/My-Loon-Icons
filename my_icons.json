@@ -43,10 +43,6 @@
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/cloudflare.png"
     },
     {
-      "name": "taobao",
-      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/taobao.png"
-    },
-    {
       "name": "zhixing",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/zhixing.png"
     },
@@ -69,6 +65,10 @@
     {
       "name": "搜狗输入法 sougou",
       "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/搜狗输入法 sougou.png"
+    },
+    {
+      "name": "淘宝 taobao",
+      "url": "https://raw.githubusercontent.com/Shamana-cn/My-Loon-Icons/main/icons/淘宝 taobao.png"
     },
     {
       "name": "瑞幸咖啡",
